@@ -1,4 +1,4 @@
-# yad IDI
+# yad IDE
 
 **Disclaimer:** I am not a programmer by trade. use my software at your own risk. MIT License Applies 2026.
 
