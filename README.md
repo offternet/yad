@@ -1,6 +1,6 @@
 # yad IDE
 
-**Disclaimer:** I am not a programmer by trade. use my software at your own risk. MIT License Applies 2026.
+**Disclaimer:** I am not a programmer by trade. use my software at your own risk. MIT License Applies 2026. Development is still Alpha Design but, usable. Just make more buttons and associated snippet files, very east.
 
  I am not the author of yad, here is his page on Github -- https://github.com/v1cont/yad.
             
