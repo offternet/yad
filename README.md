@@ -6,7 +6,7 @@
             
 **yad DnD IDE** - Alpha but, only one being created in the world where its purely yad & bash.
 
-yad-ide-Ver1.0a is Alpha Framework only utilizing bash (heavily) and yad gui --dnd & yad --notebook.
+yad-ide-V1.0j is Alpha Framework only utilizing bash (heavily) and yad gui --dnd & yad --notebook.
 
 **Pre-use considerations:**
 Please Understand that no one has ever been able to develop a Drag & Drop from yad --html to yad --dnd before now. 
