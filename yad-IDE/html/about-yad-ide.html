@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html><head><meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>About yad IDE</title></head><body>
+  
+<table style="text-align: left; width: 80%; margin-left: auto; margin-right: auto;" border="1" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr align="center">
+      <td style="vertical-align: top;"><img style="width: 320px; height: 371px;" alt="yad --about" title="yad --about" src="file:///production/yad/buttons/yad-about-dialog-image.png"><br>
+      </td>
+    </tr>
+    <tr style="font-family: sans-serif;">
+      <td style="vertical-align: top;">Program Name: yad Intergrated Development Enviroment<br>
+      <br>
+Alpha Version: yad IDE - Code tested on MX Linux Xfce.<br>
+      <br>
+Filename: yad-ide-V1.03n.sh | March 29, 2026<br>
+      <br>
+Find lasted version here: https://github.com/offternet/yad<br>
+      <br>
+Requires: yad gui 10.x+ required on a GTK3.22+ system. (Compile on your system- 10MB)<br>
+yad source is here: https://github.com/v1cont/yad/releases<br>
+      <br>
+Can also use the self contained yad-13.AppImage here: (73MB)<br>
+https://github.com/sonic2kk/steamtinkerlaunch-tweaks/releases<br>
+      <br>
+MIT LICENSE 2026 (c) Robert J. Cooper https://LinDnd.com<br>
+Your use of this alpha software version is your acceptace of the MIT LICENSE.<br>
+      <br>
+This is an Alpha Design Version 1.0x of yad IDE. We are working to add
+the General Snippets here and to the rest of the above tabs. Its
+actually easy to add your own. The name used for images must be exactly
+same as code snippet file. Images have *.png extension. Snippet code
+files do NOT have an extension.&nbsp; image filename: color.png |
+snippet filename: color<br>
+      <br>
+Create Image:<br>
+1. Open one of the *.png images found in /production/yad/buttons into your image program. This will give you the correct size.<br>
+      <br>
+2. Add snippet name color to your image button. color is yad selection dialog.<br>
+&nbsp;&nbsp; Flatten image (merge layers) and save as /production/yad/buttons/color.png<br>
+      <br>
+Create Snippet File:<br>
+3. Open a text editor and create the code snippet file for dialog: color. Snippet code for dialog color is: yad --color \<br>
+&nbsp;&nbsp; We place yad in front of all dialogs (color is a yad dialog), yad&nbsp; --color \<br>
+&nbsp;&nbsp; Save file as /production/yad/color<br>
+&nbsp;&nbsp; We don't use extenstions on snippet files in yad IDE.<br>
+&nbsp;&nbsp; <br>
+&nbsp;&nbsp; Use of backslash \<br>
+&nbsp;&nbsp; The backslash \ is in most but, not all snippet files. The \ is for newline.<br>
+&nbsp;&nbsp; Using \ Newline makes the code more readable as each snippet / command is on a new line. <br>
+&nbsp;&nbsp; Later you can change to inline coding as you wish in this fashion:<br>
+&nbsp;&nbsp;&nbsp;&nbsp; yad --html --browser --uri="https://yahoo.com" --width=1000 --height=600 --button="Exit:1")<br>
+&nbsp;&nbsp; <br>
+Add image to color.html<br>
+4. "<br>
+      <br>
+show_about () {<br>
+&nbsp;&nbsp;&nbsp; yad --text-info --width=700 --height=450 --on-top
+--center --title="About yad IDE" --wrap --fontname="Monospace 10"
+--button="Close:1" &lt;&lt;&lt; "$about_info"<br>
+      <br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;"><br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;"><br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;"><br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;"><br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+
+</body></html>
