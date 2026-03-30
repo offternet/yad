@@ -1,0 +1,17 @@
+
+#===================================================================
+# Safe key generator for YAD (16-bit unsigned integer: 0 to 65535)
+generate_yad_key() {
+    echo $(( RANDOM % 65536 ))
+}
+
+# Generate keys for both containers
+fkey=$(generate_yad_key)
+fkey2=$(generate_yad_key)
+
+# Ensure keys are different
+while [ "$fkey2" -eq "$fkey" ]; do
+    fkey2=$(generate_yad_key)
+done
+
+#===================================================================

@@ -1,0 +1,15 @@
+
+yad --notebook \
+    --title="User Configuration" \
+    --tab="User Info" \
+    --tab="Preferences" \
+    --form \
+    --field="Name:" \
+    --field="Email:" \
+    --field="Phone:" \
+    --form \
+    --field="Theme:CB" "Light!Dark" \
+    --field="Notifications:CHK" \
+    --field="Auto-save:CHK" \
+    --width=500 \
+    --height=300 \
