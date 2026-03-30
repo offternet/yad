@@ -1,0 +1,39 @@
+Install Compile Dependicies:
+
+     sudo apt install autoconf automake intltool 
+
+
+Install yad gui 10.x+ Dependicies:
+
+   libgtk-3-dev libwebkit2gtk-4.1-dev libgtksourceview-3.0-dev
+   
+
+Git yad source:
+git clone https://github.com/v1cont/yad.git yad-dialog-code
+cd yad-dialog-code
+
+   or download it at https://github.com/v1cont/yad
+   	                 unzip it 
+   	                 
+cd yad-1x
+
+run compiler / installer as root:  sudo -s
+
+Compile:
+   autoreconf -ivf
+
+   intltoolize --force 
+
+   ./configure --enable-html --enable-sourceview --enable-standalone
+
+   make
+
+Install yad (it will be in /usr/local/bin)
+
+    make install
+
+Update GTK Icon Cache:
+
+     sudo gtk-update-icon-cache
+
+
